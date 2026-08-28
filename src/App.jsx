@@ -8,6 +8,8 @@ CAPYPHYSICS SETTINGS
 */
 
 const STORAGE_KEY = "capyphysics-progress-v2";
+const imagePath = (fileName) =>
+  `${import.meta.env.BASE_URL}images/${fileName}`;
 
 /*
 Put reusable website images in:
@@ -20,7 +22,7 @@ introCapy: "/images/capy-intro.png"
 */
 
 const siteImages = {
-  introCapy: "/images/capy-intro.png",
+  introCapy: imagePath("capyphysicstitle.png"),
   happyCapy: null,
   sadCapy: null,
 };
@@ -134,7 +136,7 @@ const questions = [
     prompt:
       "Which picture shows what happens immediately after Capy releases the ball?",
 
-    sceneImage: "/images/Capy_drop_red.png_medres.png",
+    sceneImage: imagePath("Capy_drop_red.png_medres.png"),
 
     sceneArtNote:
       "Draw Capy holding a ball at some height and releasing it.",
@@ -145,7 +147,7 @@ const questions = [
 
         label: "The ball moves upward",
 
-        image: "/images/red_ball_up.png",
+        image: imagePath("red_ball_up.png"),
 
         artNote:
           "Draw the ball beginning to move upward.",
@@ -161,7 +163,7 @@ const questions = [
 
         label: "The ball moves downward",
 
-        image: "/images/red_ball_down.png",
+        image: imagePath("red_ball_down.png"),
 
         artNote:
           "Draw the ball beginning to fall straight downward.",
@@ -177,7 +179,7 @@ const questions = [
 
         label: "The ball moves sideways",
 
-        image: "/images/red_ball_left.png",
+        image: imagePath("red_ball_left.png"),
 
         artNote:
           "Draw the ball beginning to move sideways.",
