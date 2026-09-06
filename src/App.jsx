@@ -244,18 +244,14 @@ const questions = [
     prompt:
       "Which picture correctly shows when the balls hit the ground?",
 
-    sceneImage: imagePath("light_takeslonger_smaller.png"),
-
-    sceneArtNote:
-      "Draw two Capys side by side. One releases a small light ball and the other releases a visibly heavy ball from the same height.",
-
+    sceneImage: imagePath("lightandheavydrop.png"),
     answers: [
       {
         id: "heavy-first",
 
         label: "The heavy ball lands first",
 
-        image: null,
+        image: imagePath("light_takeslonger_smaller.png"),
 
         artNote:
           "Draw two clocks showing the heavy ball hitting first.",
@@ -271,7 +267,7 @@ const questions = [
 
         label: "They land at the same time",
 
-        image: null,
+        image: imagePath("sametime_small.png"),
 
         artNote:
           "Draw matching clocks showing both balls hitting at the same time.",
@@ -287,7 +283,7 @@ const questions = [
 
         label: "The light ball lands first",
 
-        image: null,
+        image: imagePath("heavy_takeslonger_smaller.png"),
 
         artNote:
           "Draw two clocks showing the light ball hitting first.",
