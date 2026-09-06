@@ -244,7 +244,7 @@ const questions = [
     prompt:
       "Which picture correctly shows when the balls hit the ground?",
 
-    sceneImage: null,
+    sceneImage: imagePath("light_takeslonger_smaller.png"),
 
     sceneArtNote:
       "Draw two Capys side by side. One releases a small light ball and the other releases a visibly heavy ball from the same height.",
