@@ -561,7 +561,7 @@ const questions = [
 
         label: "The thrown ball lands first",
 
-        image: imagePath("Red_takeslonger_samller.png"),
+        image: imagePath("Red_takeslonger_smaller.png"),
 
         artNote:
           "Draw the horizontally thrown ball's clock finishing first.",
