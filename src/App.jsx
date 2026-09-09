@@ -22,8 +22,8 @@ introCapy: "/images/capy-intro.png"
 */
 
 const siteImages = {
-  introCapy: imagePath("capyphysicstitle.png"),
-  happyCapy: null,
+  introCapy: imagePath("REALCAPY_standing_samller.png"),
+  happyCapy: imagePath("REALCAPY_standing_samller.png"),
   sadCapy: null,
 };
 
@@ -342,7 +342,7 @@ const questions = [
     prompt:
       "Which ball reaches the ground first?",
 
-    sceneImage: null,
+    sceneImage: imagePath("throwdown_small.png"),
 
     sceneArtNote:
       "Draw two Capys side by side. One simply releases a ball. The other throws a ball downward with a clear downward velocity arrow.",
@@ -353,7 +353,7 @@ const questions = [
 
         label: "The thrown ball lands first",
 
-        image: null,
+        image: imagePath("Red_takeslonger_smaller.png"),
 
         artNote:
           "Draw clocks showing the downward-thrown ball hitting first.",
@@ -369,7 +369,7 @@ const questions = [
 
         label: "They land at the same time",
 
-        image: null,
+        image: imagePath("takes_the_sametime_samller.png"),
 
         artNote:
           "Draw matching clocks.",
@@ -385,7 +385,7 @@ const questions = [
 
         label: "The dropped ball lands first",
 
-        image: null,
+        image: imagePath("purple_takeslonger_small.png"),
 
         artNote:
           "Draw clocks showing the dropped ball hitting first.",
