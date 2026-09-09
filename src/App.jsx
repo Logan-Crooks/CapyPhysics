@@ -430,7 +430,7 @@ const questions = [
     prompt:
       "Which ball reaches the ground first?",
 
-    sceneImage: null,
+    sceneImage: imagePath("throwup_small.png"),
 
     sceneArtNote:
       "Draw one ball being dropped and another being thrown upward. Make the upward velocity arrow obvious.",
@@ -441,7 +441,7 @@ const questions = [
 
         label: "The upward-thrown ball lands first",
 
-        image: null,
+        image: imagePath("Red_takeslonger_smaller.png"),
 
         artNote:
           "Draw clocks showing the upward-thrown ball hitting first.",
@@ -457,7 +457,7 @@ const questions = [
 
         label: "They land at the same time",
 
-        image: null,
+        image: imagePath("takes_the_sametime_samller.png"),
 
         artNote:
           "Draw matching clocks.",
@@ -473,7 +473,7 @@ const questions = [
 
         label: "The dropped ball lands first",
 
-        image: null,
+        image: imagePath("purple_takeslonger_small.png"),
 
         artNote:
           "Draw clocks showing the dropped ball hitting first.",
@@ -518,7 +518,7 @@ const questions = [
     prompt:
       "Which ball reaches the ground first?",
 
-    sceneImage: null,
+    sceneImage: imagePath("Throwforward.png"),
 
     sceneArtNote:
       "Draw one Capy dropping a ball and another Capy throwing a ball perfectly horizontally from the same height.",
@@ -529,7 +529,7 @@ const questions = [
 
         label: "The dropped ball lands first",
 
-        image: null,
+        image: imagePath("purple_takeslonger_small.png"),
 
         artNote:
           "Draw the dropped ball's clock finishing first.",
@@ -545,7 +545,7 @@ const questions = [
 
         label: "They land at the same time",
 
-        image: null,
+        image: imagePath("takes_the_sametime_samller.png"),
 
         artNote:
           "Draw clocks showing identical elapsed time.",
@@ -561,7 +561,7 @@ const questions = [
 
         label: "The thrown ball lands first",
 
-        image: null,
+        image: imagePath("Red_takeslonger)samller.png"),
 
         artNote:
           "Draw the horizontally thrown ball's clock finishing first.",
