@@ -518,7 +518,7 @@ const questions = [
     prompt:
       "Which ball reaches the ground first?",
 
-    sceneImage: imagePath("Throwforward.png"),
+    sceneImage: imagePath("Throwforward_small.png"),
 
     sceneArtNote:
       "Draw one Capy dropping a ball and another Capy throwing a ball perfectly horizontally from the same height.",
@@ -561,7 +561,7 @@ const questions = [
 
         label: "The thrown ball lands first",
 
-        image: imagePath("Red_takeslonger)samller.png"),
+        image: imagePath("Red_takeslonger_samller.png"),
 
         artNote:
           "Draw the horizontally thrown ball's clock finishing first.",
